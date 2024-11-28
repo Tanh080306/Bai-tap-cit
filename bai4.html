@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Biểu mẫu</title>
+</head>
+<body>
+    <h1>Biểu mẫu thông tin</h1>
+    <form action="/submit_form.html" method="get" target="_blank">
+    <label for="Nhap ho va ten">Nhập họ và tên của bạn</label><br>
+    <input type="text" name="Nhap ho va ten" id="nhap ho va ten" placeholder="Nhap ho va ten cua ban" >
+    <br>
+    <label for="nhap email">Email</label><br>
+    <input type="email" name="nhap email" id="nhap email" required >
+    <br>
+    <label for="mk">Nhập mật khẩu</label><br>
+    <input type="password" name="mk" id="mk" minlength="8" >
+    <br>
+    <label for="ngaysinh">Nhập ngày sinh</label><br>
+    <input type="date" name="ngaysinh" id="ngaysinh">
+    <br><br>
+    <label for="gt">Chọn giới tính</label><br>
+    <input type="radio" name="gt" id="nam" value="Nam"> <label for="gt">Nam</label>
+    <input type="radio" name="gt" id="nu" value="Nữ"> <label for="gt">Nữ</label><br><br>
+    <label for="st">Sở thích</label><br>
+    <input type="checkbox" name="st" id="nghe nhac" value="Nghe nhạc"> <label for="st">Nghe nhạc</label>
+    <input type="checkbox" name="st" id="doc sach" value="Đọc sách"> <label for="st">Đọc sách</label>
+    <input type="checkbox" name="st" id="du lich" value="Du lịch"> <label for="st">Du lịch</label> <br><br>
+    <label for="avt">Tải lên ảnh đại diện</label><br>
+    <input type="file" name="avt" id="avt" accept="image/*">
+    <br><br>
+    <input type="submit" value="Gửi"><br>
+    </form>
+</body>
+</html>
